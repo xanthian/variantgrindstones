@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "variant_grindstones:grindstones"
+    }
+  ],
+  "result": {
+    "item": "minecraft:grindstone"
+  }
+}

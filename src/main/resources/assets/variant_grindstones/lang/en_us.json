@@ -1,0 +1,32 @@
+{
+  "itemGroup.variant_grindstones.variant_grindstones" : "Variant Grindstones",
+
+  "_vanilla": "Vanilla Grindstones",
+  "block.variant_grindstones.end_stone_slab": "End Stone Slab",
+  "block.minecraft.grindstone": "Dark Oak Grindstone",
+  "block.variant_grindstones.acacia_grindstone": "Acacia Grindstone",
+  "block.variant_grindstones.birch_grindstone": "Birch Grindstone",
+  "block.variant_grindstones.jungle_grindstone": "Jungle Grindstone",
+  "block.variant_grindstones.oak_grindstone": "Oak Grindstone",
+  "block.variant_grindstones.mangrove_grindstone": "Mangrove Grindstone",
+  "block.variant_grindstones.spruce_grindstone": "Spruce Grindstone",
+
+  "block.variant_grindstones.crimson_grindstone": "Crimson Grindstone",
+  "block.variant_grindstones.warped_grindstone": "Warped Grindstone",
+
+  "block.variant_grindstones.rubber_grindstone": "Rubber Grindstone",
+
+  "block.variant_grindstones.azalea_grindstone": "Azalea Grindstone",
+  "block.variant_grindstones.coconut_grindstone": "Coconut Grindstone",
+  "block.variant_grindstones.flowering_azalea_grindstone": "Flowering Azalea Grindstone",
+  "block.variant_grindstones.walnut_grindstone": "Walnut Grindstone",
+
+  "block.variant_grindstones.cinnamon_grindstone": "Cinnamon Grindstone",
+
+  "block.variant_grindstones.jade_grindstone": "Jade Birch Grindstone",
+  "block.variant_grindstones.moon_grindstone": "Moon Grindstone",
+  "block.variant_grindstones.shadow_grindstone": "Shadow Grindstone",
+
+  "block.variant_grindstones.mango_grindstone": "Mango Grindstone"
+
+}

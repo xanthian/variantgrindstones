@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.xanthian.variant_grindstones.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "GrindstoneScreenHandlerMixin",
+    "RecipeManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

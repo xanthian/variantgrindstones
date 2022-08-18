@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": ["#variant_grindstones:grindstones",
+    {"id":"variant_grindstones:end_stone_slab", "required": false}
+  ]
+}
