@@ -18,6 +18,8 @@
     {"id":"variant_grindstones:jade_grindstone", "required": false},
     {"id":"variant_grindstones:moon_grindstone", "required": false},
     {"id":"variant_grindstones:shadow_grindstone", "required": false},
-    {"id":"variant_grindstones:mango_grindstone", "required": false}
+    {"id":"variant_grindstones:mango_grindstone", "required": false},
+    {"id":"variant_grindstones:fir_grindstone", "required": false}
+
   ]
 }

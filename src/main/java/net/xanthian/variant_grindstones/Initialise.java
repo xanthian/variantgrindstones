@@ -35,6 +35,7 @@ public class Initialise implements ModInitializer {
     @Override
     public void onInitialize() {
 
+            Slab.registerSlabBlocks();
         if (!FabricLoader.getInstance().isModLoaded("vsas")) {
             woodTypes.add(Pair.of("acacia", new String[0]));
             woodTypes.add(Pair.of("birch", new String[0]));
@@ -45,7 +46,6 @@ public class Initialise implements ModInitializer {
             netherwoodTypes.add(Pair.of("crimson", new String[0]));
             netherwoodTypes.add(Pair.of("warped", new String[0]));
             Grindstones.registerVanillaGrindstones();
-            Slab.registerSlabBlocks();
             Grindstones.registerNetherGrindstones();
         }
         if (FabricLoader.getInstance().isModLoaded("techreborn")) {
@@ -72,6 +72,10 @@ public class Initialise implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("simplemango")) {
             woodTypes.add(Pair.of("mango", new String[]{"simplemango"}));
             Grindstones.registerSimpleMangoGrindstones();
+        }
+        if (FabricLoader.getInstance().isModLoaded("traverse")) {
+            woodTypes.add(Pair.of("fir", new String[]{"traverse"}));
+            Grindstones.registerTraverseGrindstones();
         }
     }
 }

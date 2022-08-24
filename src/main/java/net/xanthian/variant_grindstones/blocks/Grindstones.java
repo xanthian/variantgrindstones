@@ -36,13 +36,11 @@ public class Grindstones {
         VariantGrindstoneBlock WARPED_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("warped_grindstone", WARPED_GRINDSTONE);
     }
-
     // Tech Reborn
     public static void registerTRGrindstones() {
         VariantGrindstoneBlock RUBBER_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("rubber_grindstone", RUBBER_GRINDSTONE);
     }
-
     // Ecologics
     public static void registerEcologicsGrindstones() {
         VariantGrindstoneBlock AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
@@ -54,13 +52,11 @@ public class Grindstones {
         VariantGrindstoneBlock WALNUT_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("walnut_grindstone", WALNUT_GRINDSTONE);
     }
-
     // Croptopia
     public static void registerCroptopiaGrindstones() {
         VariantGrindstoneBlock CINNAMON_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("cinnamon_grindstone", CINNAMON_GRINDSTONE);
     }
-
     // Epic Paladins (arclight)
     public static void registerArclightGrindstones() {
         VariantGrindstoneBlock JADE_GRINDSTONE = new VariantGrindstoneBlock();
@@ -70,11 +66,15 @@ public class Grindstones {
         VariantGrindstoneBlock SHADOW_GRINDSTONE = new VariantGrindstoneBlock(); 
         registergrindstoneBlock("shadow_grindstone", SHADOW_GRINDSTONE);
     }
-
     // Simple Mango
     public static void registerSimpleMangoGrindstones() {
         VariantGrindstoneBlock MANGO_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("mango_grindstone", MANGO_GRINDSTONE);
+    }
+    // Traverse
+    public static void registerTraverseGrindstones() {
+        VariantGrindstoneBlock FIR_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("fir_grindstone", FIR_GRINDSTONE);
 
     }
     // To-do : Updated Blockus,Promenade, Bewitchment, Biome Makeover, Enriched, Twigs, Wilder World
