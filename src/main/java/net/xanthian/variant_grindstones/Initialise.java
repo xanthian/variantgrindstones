@@ -78,28 +78,28 @@ public class Initialise implements ModInitializer {
             Grindstones.registerTraverseGrindstones();
         }
         if (FabricLoader.getInstance().isModLoaded("betterend")) {
-            woodTypes.add(Pair.of("dragon_tree", new String[]{"betterend"}));
-            woodTypes.add(Pair.of("end_lotus", new String[]{"betterend"}));
-            woodTypes.add(Pair.of("helix_tree", new String[]{"betterend"}));
-            woodTypes.add(Pair.of("jellyshroom", new String[]{"betterend"}));
-            woodTypes.add(Pair.of("lacugrove", new String[]{"betterend"}));
-            woodTypes.add(Pair.of("lucernia", new String[]{"betterend"}));
-            woodTypes.add(Pair.of("mossy_glowshroom", new String[]{"betterend"}));
-            woodTypes.add(Pair.of("pythadendron", new String[]{"betterend"}));
-            woodTypes.add(Pair.of("tenanea", new String[]{"betterend"}));
-            woodTypes.add(Pair.of("umbrella_tree", new String[]{"betterend"}));
+            endwoodTypes.add(Pair.of("dragon_tree", new String[]{"betterend"}));
+            endwoodTypes.add(Pair.of("end_lotus", new String[]{"betterend"}));
+            endwoodTypes.add(Pair.of("helix_tree", new String[]{"betterend"}));
+            endwoodTypes.add(Pair.of("jellyshroom", new String[]{"betterend"}));
+            endwoodTypes.add(Pair.of("lacugrove", new String[]{"betterend"}));
+            endwoodTypes.add(Pair.of("lucernia", new String[]{"betterend"}));
+            endwoodTypes.add(Pair.of("mossy_glowshroom", new String[]{"betterend"}));
+            endwoodTypes.add(Pair.of("pythadendron", new String[]{"betterend"}));
+            endwoodTypes.add(Pair.of("tenanea", new String[]{"betterend"}));
+            endwoodTypes.add(Pair.of("umbrella_tree", new String[]{"betterend"}));
             Grindstones.registerBetterEndGrindstones();
         }
         if (FabricLoader.getInstance().isModLoaded("betternether")) {
-            woodTypes.add(Pair.of("anchor_tree", new String[]{"betternether"}));
-            woodTypes.add(Pair.of("mushroom_fir", new String[]{"betternether"}));
-            woodTypes.add(Pair.of("nether_mushroom", new String[]{"betternether"}));
-            woodTypes.add(Pair.of("nether_reed", new String[]{"betternether"}));
-            woodTypes.add(Pair.of("nether_sakura", new String[]{"betternether"}));
-            woodTypes.add(Pair.of("rubeus", new String[]{"betternether"}));
-            woodTypes.add(Pair.of("stalagnate", new String[]{"betternether"}));
-            woodTypes.add(Pair.of("wart", new String[]{"betternether"}));
-            woodTypes.add(Pair.of("willow", new String[]{"betternether"}));
+            netherwoodTypes.add(Pair.of("anchor_tree", new String[]{"betternether"}));
+            netherwoodTypes.add(Pair.of("mushroom_fir", new String[]{"betternether"}));
+            netherwoodTypes.add(Pair.of("nether_mushroom", new String[]{"betternether"}));
+            netherwoodTypes.add(Pair.of("nether_reed", new String[]{"betternether"}));
+            netherwoodTypes.add(Pair.of("nether_sakura", new String[]{"betternether"}));
+            netherwoodTypes.add(Pair.of("rubeus", new String[]{"betternether"}));
+            netherwoodTypes.add(Pair.of("stalagnate", new String[]{"betternether"}));
+            netherwoodTypes.add(Pair.of("wart", new String[]{"betternether"}));
+            netherwoodTypes.add(Pair.of("willow", new String[]{"betternether"}));
             Grindstones.registerBetterNetherGrindstones();
         }
 
