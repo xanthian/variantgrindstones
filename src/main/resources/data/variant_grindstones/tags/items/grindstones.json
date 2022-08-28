@@ -19,7 +19,25 @@
     {"id":"variant_grindstones:moon_grindstone", "required": false},
     {"id":"variant_grindstones:shadow_grindstone", "required": false},
     {"id":"variant_grindstones:mango_grindstone", "required": false},
-    {"id":"variant_grindstones:fir_grindstone", "required": false}
-
+    {"id":"variant_grindstones:fir_grindstone", "required": false},
+    {"id":"variant_grindstones:dragon_tree_grindstone", "required": false},
+    {"id":"variant_grindstones:end_lotus_grindstone", "required": false},
+    {"id":"variant_grindstones:helix_tree_grindstone", "required": false},
+    {"id":"variant_grindstones:jellyshroom_grindstone", "required": false},
+    {"id":"variant_grindstones:lacugrove_grindstone", "required": false},
+    {"id":"variant_grindstones:lucernia_grindstone", "required": false},
+    {"id":"variant_grindstones:mossy_glowshroom_grindstone", "required": false},
+    {"id":"variant_grindstones:pythadendron_grindstone", "required": false},
+    {"id":"variant_grindstones:tenanea_grindstone", "required": false},
+    {"id":"variant_grindstones:umbrella_tree_grindstone", "required": false},
+    {"id":"variant_grindstones:anchor_tree_grindstone", "required": false},
+    {"id":"variant_grindstones:mushroom_fir_grindstone", "required": false},
+    {"id":"variant_grindstones:nether_mushroom_grindstone", "required": false},
+    {"id":"variant_grindstones:nether_reed_grindstone", "required": false},
+    {"id":"variant_grindstones:nether_sakura_grindstone", "required": false},
+    {"id":"variant_grindstones:rubeus_grindstone", "required": false},
+    {"id":"variant_grindstones:stalagnate_grindstone", "required": false},
+    {"id":"variant_grindstones:wart_grindstone", "required": false},
+    {"id":"variant_grindstones:willow_grindstone", "required": false}
   ]
 }

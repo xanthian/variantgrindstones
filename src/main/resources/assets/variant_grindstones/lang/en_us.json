@@ -29,6 +29,26 @@
 
   "block.variant_grindstones.mango_grindstone": "Mango Grindstone",
 
-  "block.variant_grindstones.fir_grindstone": "Fir Grindstone"
+  "block.variant_grindstones.fir_grindstone": "Fir Grindstone",
 
+  "block.variant_grindstones.dragon_tree_grindstone": "Dragon Tree Grindstone",
+  "block.variant_grindstones.end_lotus_grindstone": "End Lotus Grindstone",
+  "block.variant_grindstones.helix_tree_grindstone": "Helix Tree Grindstone",
+  "block.variant_grindstones.jellyshroom_grindstone": "Jellyshroom Grindstone",
+  "block.variant_grindstones.lacugrove_grindstone": "Lacugrove Grindstone",
+  "block.variant_grindstones.lucernia_grindstone": "Lucernia Grindstone",
+  "block.variant_grindstones.mossy_glowshroom_grindstone": "Mossy Glowshroom Grindstone",
+  "block.variant_grindstones.pythadendron_grindstone": "Pythadendron Grindstone",
+  "block.variant_grindstones.tenanea_grindstone": "Tenanea Grindstone",
+  "block.variant_grindstones.umbrella_tree_grindstone": "Umbrella Tree Grindstone",
+
+  "block.variant_grindstones.anchor_tree_grindstone": "Anchor Tree Grindstone",
+  "block.variant_grindstones.mushroom_fir_grindstone": "Mushroom Fir Grindstone",
+  "block.variant_grindstones.nether_mushroom_grindstone": "Nether Mushroom Grindstone",
+  "block.variant_grindstones.nether_reed_grindstone": "Nether Reed Grindstone",
+  "block.variant_grindstones.nether_sakura_grindstone": "Nether Sakura Grindstone",
+  "block.variant_grindstones.rubeus_grindstone": "Rubeus Grindstone",
+  "block.variant_grindstones.stalagnate_grindstone": "Stalagnate Grindstone",
+  "block.variant_grindstones.wart_grindstone": "Wart Grindstone",
+  "block.variant_grindstones.willow_grindstone": "Willow Grindstone"
 }

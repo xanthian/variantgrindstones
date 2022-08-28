@@ -75,8 +75,52 @@ public class Grindstones {
     public static void registerTraverseGrindstones() {
         VariantGrindstoneBlock FIR_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("fir_grindstone", FIR_GRINDSTONE);
-
     }
+    // Better End
+    public static void registerBetterEndGrindstones() {
+        VariantGrindstoneBlock DRAGON_TREE_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("dragon_tree_grindstone", DRAGON_TREE_GRINDSTONE);
+        VariantGrindstoneBlock END_LOTUS_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("end_lotus_grindstone", END_LOTUS_GRINDSTONE);
+        VariantGrindstoneBlock HELIX_TREE_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("helix_tree_grindstone", HELIX_TREE_GRINDSTONE);
+        VariantGrindstoneBlock JELLYSHROOM_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("jellyshroom_grindstone", JELLYSHROOM_GRINDSTONE);
+        VariantGrindstoneBlock LACUGROVE_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("lacugrove_grindstone", LACUGROVE_GRINDSTONE);
+        VariantGrindstoneBlock LUCERNIA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("lucernia_grindstone", LUCERNIA_GRINDSTONE);
+        VariantGrindstoneBlock MOSSY_GLOWSHROOM_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("mossy_glowshroom_grindstone", MOSSY_GLOWSHROOM_GRINDSTONE);
+        VariantGrindstoneBlock PYTHADENDRON_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("pythadendron_grindstone", PYTHADENDRON_GRINDSTONE);
+        VariantGrindstoneBlock TENANEA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("tenanea_grindstone", TENANEA_GRINDSTONE);
+        VariantGrindstoneBlock UMBRELLA_TREE_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("umbrella_tree_grindstone", UMBRELLA_TREE_GRINDSTONE);
+    }
+    // Better Nether
+    public static void registerBetterNetherGrindstones() {
+        VariantGrindstoneBlock ANCHOR_TREE_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("anchor_tree_grindstone", ANCHOR_TREE_GRINDSTONE);
+        VariantGrindstoneBlock MUSHROOM_FIR_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("mushroom_fir_grindstone", MUSHROOM_FIR_GRINDSTONE);
+        VariantGrindstoneBlock NETHER_MUSHROOM_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("nether_mushroom_grindstone", NETHER_MUSHROOM_GRINDSTONE);
+        VariantGrindstoneBlock NETHER_REED_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("nether_reed_grindstone", NETHER_REED_GRINDSTONE);
+        VariantGrindstoneBlock NETHER_SAKURA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("nether_sakura_grindstone", NETHER_SAKURA_GRINDSTONE);
+        VariantGrindstoneBlock RUBEUS_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("rubeus_grindstone", RUBEUS_GRINDSTONE);
+        VariantGrindstoneBlock STALAGNATE_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("stalagnate_grindstone", STALAGNATE_GRINDSTONE);
+        VariantGrindstoneBlock WART_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("wart_grindstone", WART_GRINDSTONE);
+        VariantGrindstoneBlock WILLOW_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("willow_grindstone", WILLOW_GRINDSTONE);
+    }
+
     // To-do : Updated Blockus,Promenade, Bewitchment, Biome Makeover, Enriched, Twigs, Wilder World
     // Not yet updated : Botania, Spectrum, Paradise Lost
 
