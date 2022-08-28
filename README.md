@@ -1,9 +1,3 @@
-# Fabric Example Mod
+Variant Grindstones
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+![image](https://user-images.githubusercontent.com/7688001/186539086-8acf08a4-60ae-4c7b-ac9f-9ea0ea99e3bf.png)
