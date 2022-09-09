@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "terrestria"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I-I",
+    "# #"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "-": {
+      "item": "minecraft:stone_slab"
+    },
+    "#": {
+      "item": "terrestria:willow_planks"
+    }
+  },
+  "result": {
+    "item": "variant_grindstones:willow_grindstone2"
+  }
+}

@@ -120,6 +120,27 @@ public class Grindstones {
         VariantGrindstoneBlock WILLOW_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("willow_grindstone", WILLOW_GRINDSTONE);
     }
+    // Terrestria
+    public static void registerTerrestriaGrindstones() {
+        VariantGrindstoneBlock CYPRESS_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("cypress_grindstone", CYPRESS_GRINDSTONE);
+        VariantGrindstoneBlock HEMLOCK_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("hemlock_grindstone", HEMLOCK_GRINDSTONE);
+        VariantGrindstoneBlock JAPANESE_MAPLE_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("japanese_maple_grindstone", JAPANESE_MAPLE_GRINDSTONE);
+        VariantGrindstoneBlock RAINBOW_EUCALYPTUS_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("rainbow_eucalyptus_grindstone", RAINBOW_EUCALYPTUS_GRINDSTONE);
+        VariantGrindstoneBlock REDWOOD_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("redwood_grindstone", REDWOOD_GRINDSTONE);
+        VariantGrindstoneBlock RUBBER_GRINDSTONE2 = new VariantGrindstoneBlock();
+        registergrindstoneBlock("rubber_grindstone2", RUBBER_GRINDSTONE2);
+        VariantGrindstoneBlock SAKURA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("sakura_grindstone", SAKURA_GRINDSTONE);
+        VariantGrindstoneBlock WILLOW_GRINDSTONE2 = new VariantGrindstoneBlock();
+        registergrindstoneBlock("willow_grindstone2", WILLOW_GRINDSTONE2);
+        VariantGrindstoneBlock YUCCA_PALM_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("yucca_palm_grindstone", YUCCA_PALM_GRINDSTONE);
+    }
 
     // To-do : Updated Blockus,Promenade, Bewitchment, Biome Makeover, Enriched, Twigs, Wilder World
     // Not yet updated : Botania, Spectrum, Paradise Lost
