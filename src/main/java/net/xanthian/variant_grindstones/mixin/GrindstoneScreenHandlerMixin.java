@@ -4,7 +4,6 @@ import net.minecraft.block.GrindstoneBlock;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.screen.GrindstoneScreenHandler;
 import net.minecraft.screen.ScreenHandlerContext;
-import net.xanthian.variant_grindstones.blocks.VariantGrindstoneBlock;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
@@ -22,6 +21,6 @@ public abstract class GrindstoneScreenHandlerMixin {
      */
     @Overwrite
     public boolean canUse(PlayerEntity player) {
-        return this.context.get((world, pos) -> world.getBlockState(pos).getBlock() instanceof VariantGrindstoneBlock, true);
+        return this.context.get((world, pos) -> world.getBlockState(pos).getBlock() instanceof GrindstoneBlock, true);
     }
 }

@@ -24,10 +24,12 @@ public class Grindstones {
         registergrindstoneBlock("jungle_grindstone", JUNGLE_GRINDSTONE);
         VariantGrindstoneBlock OAK_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("oak_grindstone", OAK_GRINDSTONE);
-        VariantGrindstoneBlock MANGROVE_GRINDSTONE = new VariantGrindstoneBlock();
-        registergrindstoneBlock("mangrove_grindstone", MANGROVE_GRINDSTONE);
         VariantGrindstoneBlock SPRUCE_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("spruce_grindstone", SPRUCE_GRINDSTONE);
+    }
+    public static void registerVanilla119Grindstone() {
+        VariantGrindstoneBlock MANGROVE_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("mangrove_grindstone", MANGROVE_GRINDSTONE);
     }
     // Nether
     public static void registerNetherGrindstones() {

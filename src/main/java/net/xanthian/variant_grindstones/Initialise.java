@@ -4,6 +4,7 @@ import com.google.common.collect.Lists;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.SharedConstants;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -41,7 +42,10 @@ public class Initialise implements ModInitializer {
             woodTypes.add(Pair.of("birch", new String[0]));
             woodTypes.add(Pair.of("jungle", new String[0]));
             woodTypes.add(Pair.of("oak", new String[0]));
-            woodTypes.add(Pair.of("mangrove", new String[0]));
+            if (SharedConstants.getGameVersion().getName().startsWith("1.19")) {
+                woodTypes.add(Pair.of("mangrove", new String[0]));
+                Grindstones.registerVanilla119Grindstone();
+            }
             woodTypes.add(Pair.of("spruce", new String[0]));
             netherwoodTypes.add(Pair.of("crimson", new String[0]));
             netherwoodTypes.add(Pair.of("warped", new String[0]));
