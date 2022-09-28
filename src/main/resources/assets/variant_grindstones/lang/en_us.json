@@ -60,5 +60,8 @@
   "block.variant_grindstones.rubber_grindstone2": "Rubber Grindstone",
   "block.variant_grindstones.sakura_grindstone": "Sakura Grindstone",
   "block.variant_grindstones.willow_grindstone2": "Willow Grindstone",
-  "block.variant_grindstones.yucca_palm_grindstone": "Yucca Palm Grindstone"
+  "block.variant_grindstones.yucca_palm_grindstone": "Yucca Palm Grindstone",
+
+  "block.variant_grindstones.scorched_grindstone": "Scorched Grindstone",
+  "block.variant_grindstones.umbral_grindstone": "Umbral Grindstone"
 }

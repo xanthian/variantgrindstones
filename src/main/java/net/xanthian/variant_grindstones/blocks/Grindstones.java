@@ -143,6 +143,13 @@ public class Grindstones {
         VariantGrindstoneBlock YUCCA_PALM_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("yucca_palm_grindstone", YUCCA_PALM_GRINDSTONE);
     }
+    // Cinderscapes
+    public static void registerCinderscapesGrindstones() {
+        VariantGrindstoneBlock SCORCHED_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("scorched_grindstone", SCORCHED_GRINDSTONE);
+        VariantGrindstoneBlock UMBRAL_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("umbral_grindstone", UMBRAL_GRINDSTONE);
+    }
 
     // To-do : Updated Blockus,Promenade, Bewitchment, Biome Makeover, Enriched, Twigs, Wilder World
     // Not yet updated : Botania, Spectrum, Paradise Lost

@@ -47,6 +47,8 @@
     {"id":"variant_grindstones:rubber_grindstone2", "required": false},
     {"id":"variant_grindstones:sakura_grindstone", "required": false},
     {"id":"variant_grindstones:willow_grindstone2", "required": false},
-    {"id":"variant_grindstones:yucca_palm_grindstone", "required": false}
+    {"id":"variant_grindstones:yucca_palm_grindstone", "required": false},
+    {"id":"variant_grindstones:scorched_grindstone", "required": false},
+    {"id":"variant_grindstones:umbral_grindstone", "required": false}
   ]
 }

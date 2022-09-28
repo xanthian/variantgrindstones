@@ -118,5 +118,10 @@ public class Initialise implements ModInitializer {
             woodTypes.add(Pair.of("yucca_palm", new String[]{"terrestria"}));
             Grindstones.registerTerrestriaGrindstones();
         }
+        if (FabricLoader.getInstance().isModLoaded("cinderscapes")) {
+            woodTypes.add(Pair.of("scorched", new String[]{"cinderscapes"}));
+            woodTypes.add(Pair.of("umbral", new String[]{"cinderscapes"}));
+            Grindstones.registerCinderscapesGrindstones();
+        }
     }
 }
