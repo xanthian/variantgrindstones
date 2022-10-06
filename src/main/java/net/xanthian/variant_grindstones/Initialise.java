@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 
 import net.xanthian.variant_grindstones.blocks.Grindstones;
 import net.xanthian.variant_grindstones.blocks.Slab;
+import net.xanthian.variant_grindstones.util.ModPOITypes;
 import org.apache.commons.lang3.tuple.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -123,5 +124,6 @@ public class Initialise implements ModInitializer {
             woodTypes.add(Pair.of("umbral", new String[]{"cinderscapes"}));
             Grindstones.registerCinderscapesGrindstones();
         }
+        ModPOITypes.init();
     }
 }

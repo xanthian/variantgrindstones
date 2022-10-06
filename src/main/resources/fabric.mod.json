@@ -13,10 +13,11 @@
     "main": ["net.xanthian.variant_grindstones.Initialise"]
   },
   "mixins": ["variant_grindstones.mixins.json"],
+  "accessWidener": "variant_grindstones.accesswidener",
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": ">=1.18.2",
+    "minecraft": ">=1.19",
     "java": ">=17"
   }
 }

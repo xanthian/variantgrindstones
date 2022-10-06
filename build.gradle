@@ -32,6 +32,9 @@ dependencies {
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 }
+loom {
+	accessWidenerPath = file("src/main/resources/variant_grindstones.accesswidener")
+}
 
 processResources {
 	inputs.property "version", project.version

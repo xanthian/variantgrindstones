@@ -1,5 +1,6 @@
 package net.xanthian.variant_grindstones.blocks;
 
+import com.google.common.collect.Maps;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -12,7 +13,11 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.xanthian.variant_grindstones.Initialise;
 
+import java.util.Map;
+
 public class Grindstones {
+
+    public static Map<Identifier, Block> MOD_GRINDSTONES = Maps.newHashMap();
 
     // Vanilla
     public static void registerVanillaGrindstones() {
@@ -158,6 +163,7 @@ public class Grindstones {
         Identifier identifier = new Identifier(Initialise.MOD_ID, Id.toLowerCase());
         Registry.register(Registry.BLOCK, identifier, block);
         Registry.register(Registry.ITEM, identifier, new BlockItem(block, new FabricItemSettings().group(Initialise.VARIANT_GRINDSTONES)));
+        MOD_GRINDSTONES.put(identifier, block);
 
         if (FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT)
     RegisterBlockRenderLayerMap(block);
