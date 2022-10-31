@@ -49,6 +49,13 @@
     {"id":"variant_grindstones:willow_grindstone2", "required": false},
     {"id":"variant_grindstones:yucca_palm_grindstone", "required": false},
     {"id":"variant_grindstones:scorched_grindstone", "required": false},
-    {"id":"variant_grindstones:umbral_grindstone", "required": false}
+    {"id":"variant_grindstones:umbral_grindstone", "required": false},
+    {"id":"variant_grindstones:azule_azalea_grindstone", "required": false},
+    {"id":"variant_grindstones:bright_azalea_grindstone", "required": false},
+    {"id":"variant_grindstones:fiss_azalea_grindstone", "required": false},
+    {"id":"variant_grindstones:roze_azalea_grindstone", "required": false},
+    {"id":"variant_grindstones:tecal_azalea_grindstone", "required": false},
+    {"id":"variant_grindstones:titanium_azalea_grindstone", "required": false},
+    {"id":"variant_grindstones:walnut_azalea_grindstone", "required": false}
   ]
 }

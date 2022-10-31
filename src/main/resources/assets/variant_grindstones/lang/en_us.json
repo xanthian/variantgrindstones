@@ -63,5 +63,13 @@
   "block.variant_grindstones.yucca_palm_grindstone": "Yucca Palm Grindstone",
 
   "block.variant_grindstones.scorched_grindstone": "Scorched Grindstone",
-  "block.variant_grindstones.umbral_grindstone": "Umbral Grindstone"
+  "block.variant_grindstones.umbral_grindstone": "Umbral Grindstone",
+
+  "block.variant_grindstones.azule_azalea_grindstone": "Azule Azalea Grindstone",
+  "block.variant_grindstones.bright_azalea_grindstone": "Bright Azalea Grindstone",
+  "block.variant_grindstones.fiss_azalea_grindstone": "Fiss Azalea Grindstone",
+  "block.variant_grindstones.roze_azalea_grindstone": "Roze Azalea Grindstone",
+  "block.variant_grindstones.tecal_azalea_grindstone": "Tecal Azalea Grindstone",
+  "block.variant_grindstones.titanium_azalea_grindstone": "Titanium Azalea Grindstone",
+  "block.variant_grindstones.walnut_azalea_grindstone": "Walnut Azalea Grindstone"
 }

@@ -155,8 +155,24 @@ public class Grindstones {
         VariantGrindstoneBlock UMBRAL_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("umbral_grindstone", UMBRAL_GRINDSTONE);
     }
+    public static void registerColorfulAzaleas() {
+        VariantGrindstoneBlock AZULE_AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("azule_azalea_grindstone", AZULE_AZALEA_GRINDSTONE);
+        VariantGrindstoneBlock BRIGHT_AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("bright_azalea_grindstone", BRIGHT_AZALEA_GRINDSTONE);
+        VariantGrindstoneBlock FISS_AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("fiss_azalea_grindstone", FISS_AZALEA_GRINDSTONE);
+        VariantGrindstoneBlock ROZE_AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("roze_azalea_grindstone", ROZE_AZALEA_GRINDSTONE);
+        VariantGrindstoneBlock TECAL_AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("tecal_azalea_grindstone", TECAL_AZALEA_GRINDSTONE);
+        VariantGrindstoneBlock TITANIUM_AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("titanium_azalea_grindstone", TITANIUM_AZALEA_GRINDSTONE);
+        VariantGrindstoneBlock WALNUT_AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("walnut_azalea_grindstone", WALNUT_AZALEA_GRINDSTONE);
+    }
 
-    // To-do : Updated Blockus,Promenade, Bewitchment, Biome Makeover, Enriched, Twigs, Wilder World
+        // To-do : Updated Blockus,Promenade, Bewitchment, Biome Makeover, Enriched, Twigs, Wilder World
     // Not yet updated : Botania, Spectrum, Paradise Lost
 
     private static void registergrindstoneBlock(String Id, Block block) {

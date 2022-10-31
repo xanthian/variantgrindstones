@@ -124,6 +124,16 @@ public class Initialise implements ModInitializer {
             woodTypes.add(Pair.of("umbral", new String[]{"cinderscapes"}));
             Grindstones.registerCinderscapesGrindstones();
         }
+        if (FabricLoader.getInstance().isModLoaded("colorful-azaleas")) {
+            woodTypes.add(Pair.of("azule_azalea", new String[]{"colorful-azaleas"}));
+            woodTypes.add(Pair.of("bright_azalea", new String[]{"colorful-azaleas"}));
+            woodTypes.add(Pair.of("fiss_azalea", new String[]{"colorful-azaleas"}));
+            woodTypes.add(Pair.of("roze_azalea", new String[]{"colorful-azaleas"}));
+            woodTypes.add(Pair.of("tecal_azalea", new String[]{"colorful-azaleas"}));
+            woodTypes.add(Pair.of("titanium_azalea", new String[]{"colorful-azaleas"}));
+            woodTypes.add(Pair.of("walnut_azalea", new String[]{"colorful-azaleas"}));
+            Grindstones.registerColorfulAzaleas();
+        }
         ModPOITypes.init();
     }
 }
