@@ -56,6 +56,8 @@
     {"id":"variant_grindstones:roze_azalea_grindstone", "required": false},
     {"id":"variant_grindstones:tecal_azalea_grindstone", "required": false},
     {"id":"variant_grindstones:titanium_azalea_grindstone", "required": false},
-    {"id":"variant_grindstones:walnut_azalea_grindstone", "required": false}
+    {"id":"variant_grindstones:walnut_azalea_grindstone", "required": false},
+    {"id":"variant_grindstones:baobab_grindstone", "required": false},
+    {"id":"variant_grindstones:cypress_grindstone3", "required": false}
   ]
 }

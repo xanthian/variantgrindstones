@@ -71,5 +71,8 @@
   "block.variant_grindstones.roze_azalea_grindstone": "Roze Azalea Grindstone",
   "block.variant_grindstones.tecal_azalea_grindstone": "Tecal Azalea Grindstone",
   "block.variant_grindstones.titanium_azalea_grindstone": "Titanium Azalea Grindstone",
-  "block.variant_grindstones.walnut_azalea_grindstone": "Walnut Azalea Grindstone"
+  "block.variant_grindstones.walnut_azalea_grindstone": "Walnut Azalea Grindstone",
+
+  "block.variant_grindstones.baobab_grindstone": "Baobab Grindstone",
+  "block.variant_grindstones.cypress_grindstone2": "Cypress Grindstone"
 }

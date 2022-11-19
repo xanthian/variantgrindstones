@@ -155,7 +155,7 @@ public class Grindstones {
         VariantGrindstoneBlock UMBRAL_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("umbral_grindstone", UMBRAL_GRINDSTONE);
     }
-    public static void registerColorfulAzaleas() {
+    public static void registerColorfulAzaleasGrindstones() {
         VariantGrindstoneBlock AZULE_AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("azule_azalea_grindstone", AZULE_AZALEA_GRINDSTONE);
         VariantGrindstoneBlock BRIGHT_AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
@@ -170,6 +170,12 @@ public class Grindstones {
         registergrindstoneBlock("titanium_azalea_grindstone", TITANIUM_AZALEA_GRINDSTONE);
         VariantGrindstoneBlock WALNUT_AZALEA_GRINDSTONE = new VariantGrindstoneBlock();
         registergrindstoneBlock("walnut_azalea_grindstone", WALNUT_AZALEA_GRINDSTONE);
+    }
+    public static void registerWilderWildsGrindstones() {
+        VariantGrindstoneBlock BAOBAB_GRINDSTONE = new VariantGrindstoneBlock();
+        registergrindstoneBlock("baobab_grindstone", BAOBAB_GRINDSTONE);
+        VariantGrindstoneBlock CYPRESS_GRINDSTONE3 = new VariantGrindstoneBlock();
+        registergrindstoneBlock("cypress_grindstone3", CYPRESS_GRINDSTONE3);
     }
 
         // To-do : Updated Blockus,Promenade, Bewitchment, Biome Makeover, Enriched, Twigs, Wilder World

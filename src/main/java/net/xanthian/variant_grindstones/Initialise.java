@@ -14,8 +14,6 @@ import net.xanthian.variant_grindstones.blocks.Grindstones;
 import net.xanthian.variant_grindstones.blocks.Slab;
 import net.xanthian.variant_grindstones.util.ModPOITypes;
 import org.apache.commons.lang3.tuple.Pair;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
@@ -23,11 +21,6 @@ public class Initialise implements ModInitializer {
 
     public static final String MOD_ID = "variant_grindstones";
 
-    public static Identifier ID(String path) {
-        return new Identifier(MOD_ID, path);
-    }
-
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     public static final ItemGroup VARIANT_GRINDSTONES = FabricItemGroupBuilder.build(new Identifier(Initialise.MOD_ID, "variant_grindstones"),
             () -> new ItemStack(Blocks.GRINDSTONE));
     public static List<Pair<String, String[]>> woodTypes = Lists.newArrayList();
@@ -132,7 +125,12 @@ public class Initialise implements ModInitializer {
             woodTypes.add(Pair.of("tecal_azalea", new String[]{"colorful-azaleas"}));
             woodTypes.add(Pair.of("titanium_azalea", new String[]{"colorful-azaleas"}));
             woodTypes.add(Pair.of("walnut_azalea", new String[]{"colorful-azaleas"}));
-            Grindstones.registerColorfulAzaleas();
+            Grindstones.registerColorfulAzaleasGrindstones();
+        }
+        if (FabricLoader.getInstance().isModLoaded("wilderwild")) {
+            woodTypes.add(Pair.of("baobab", new String[]{"wilderwild"}));
+            //woodTypes.add(Pair.of("cypress", new String[]{"wilderwild"}));
+            Grindstones.registerWilderWildsGrindstones();
         }
         ModPOITypes.init();
     }
