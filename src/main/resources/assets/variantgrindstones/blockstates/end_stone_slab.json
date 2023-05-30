@@ -1,0 +1,16 @@
+{
+ "variants":
+  {
+    "type=bottom":
+{
+      "model":"variantgrindstones:block/end_stone_slab"
+    },
+    "type=double":
+    {
+      "model":"minecraft:block/end_stone"
+    },
+    "type=top":{
+      "model":"variantgrindstones:block/end_stone_slab_top"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "variant_grindstones",
+  "id": "variantgrindstones",
   "version": "${version}",
 
   "name": "Variant Grindstones",
@@ -10,14 +10,15 @@
   "icon": "assets/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": ["net.xanthian.variant_grindstones.Initialise"]
+    "main": ["net.xanthian.variantgrindstones.Initialise"],
+    "fabric-datagen": ["net.xanthian.variantgrindstones.DataGenerator"]
   },
-  "mixins": ["variant_grindstones.mixins.json"],
-  "accessWidener": "variant_grindstones.accesswidener",
+  "mixins": ["variantgrindstones.mixins.json"],
+  "accessWidener": "variantgrindstones.accesswidener",
   "depends": {
-    "fabricloader": ">=0.14.6",
+    "fabricloader": ">=0.14.20",
     "fabric": "*",
-    "minecraft": ">=1.19",
+    "minecraft": "1.20.x",
     "java": ">=17"
   }
 }

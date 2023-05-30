@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.xanthian.variantgrindstones.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "GrindstoneScreenHandlerMixin",
+    "PointOfInterestTypesAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "variantgrindstones:acacia_grindstone",
+    "variantgrindstones:bamboo_grindstone",
+    "variantgrindstones:birch_grindstone",
+    "variantgrindstones:cherry_grindstone",
+    "variantgrindstones:crimson_grindstone",
+    "variantgrindstones:jungle_grindstone",
+    "variantgrindstones:mangrove_grindstone",
+    "variantgrindstones:oak_grindstone",
+    "variantgrindstones:spruce_grindstone",
+    "variantgrindstones:warped_grindstone"
+  ]
+}

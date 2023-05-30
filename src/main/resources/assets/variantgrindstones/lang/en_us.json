@@ -1,0 +1,17 @@
+{
+  "_comment": "Rename Vanilla",
+  "block.minecraft.grindstone": "Dark Oak Grindstone",
+
+  "variantgrindstones.group.variantgrindstones" : "Variant Grindstones",
+
+  "block.variantgrindstones.acacia_grindstone": "Acacia Grindstone",
+  "block.variantgrindstones.bamboo_grindstone": "Bamboo Grindstone",
+  "block.variantgrindstones.birch_grindstone": "Birch Grindstone",
+  "block.variantgrindstones.cherry_grindstone": "Cherry Grindstone",
+  "block.variantgrindstones.crimson_grindstone": "Crimson Grindstone",
+  "block.variantgrindstones.jungle_grindstone": "Jungle Grindstone",
+  "block.variantgrindstones.oak_grindstone": "Oak Grindstone",
+  "block.variantgrindstones.mangrove_grindstone": "Mangrove Grindstone",
+  "block.variantgrindstones.spruce_grindstone": "Spruce Grindstone",
+  "block.variantgrindstones.warped_grindstone": "Warped Grindstone"
+}
