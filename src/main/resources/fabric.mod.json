@@ -20,5 +20,21 @@
     "fabric": "*",
     "minecraft": "1.20.x",
     "java": ">=17"
+  },
+  "custom": {
+    "optigui": {
+      "containerTextures": {
+        "variantgrindstones:acacia_grindstone": "minecraft:textures/gui/container/grindstone.png",
+        "variantgrindstones:bamboo_grindstone": "minecraft:textures/gui/container/grindstone.png",
+        "variantgrindstones:birch_grindstone": "minecraft:textures/gui/container/grindstone.png",
+        "variantgrindstones:cherry_grindstone": "minecraft:textures/gui/container/grindstone.png",
+        "variantgrindstones:crimson_grindstone": "minecraft:textures/gui/container/grindstone.png",
+        "variantgrindstones:jungle_grindstone": "minecraft:textures/gui/container/grindstone.png",
+        "variantgrindstones:mangrove_grindstone": "minecraft:textures/gui/container/grindstone.png",
+        "variantgrindstones:oak_grindstone": "minecraft:textures/gui/container/grindstone.png",
+        "variantgrindstones:spruce_grindstone": "minecraft:textures/gui/container/grindstone.png",
+        "variantgrindstones:warped_grindstone": "minecraft:textures/gui/container/grindstone.png"
+      }
+    }
   }
 }
